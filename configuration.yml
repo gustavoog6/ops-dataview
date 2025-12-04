@@ -1,0 +1,24 @@
+name: "OPS DataView"
+slug: "ops-dataview"
+version: "1.0.0"
+description: "Central de dashboards gerenciais para controle da operação B2B."
+permissions:
+  - "orders"
+  - "products"
+  - "customers"
+
+# Configurações de autenticação e endpoints (vazios por enquanto)
+auth:
+  type: "oauth"
+  client_id: "bbb8cbf5-6ee1-4784-8f15-e803970bc361"
+  callback_uri: "https://admin.zydon.com.br/store/apps/ops-dataview/zydon/callback" 
+entry_points: []
+
+is_alive_endpoint:
+  url: ""
+
+installation_endpoint:
+  url: ""
+
+uninstallation_endpoint:
+  url: ""

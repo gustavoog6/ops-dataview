@@ -1,0 +1,9 @@
+- id: ""
+  name: ""
+  resource: ""
+  resource_id: ""
+  url: ""
+  http_method: ""
+  headers:
+    - name: ""
+      value: ""

@@ -1,0 +1,6 @@
+- id: "ops-dataview-menu"   
+  name: "OPS DataView"
+  slug: "ops-dataview-main"
+  icon: "analytics"
+  type: "screen"
+  screen-slug: "dashboard-home"
