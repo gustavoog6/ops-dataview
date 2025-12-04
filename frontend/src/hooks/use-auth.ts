@@ -8,7 +8,7 @@ import { MODE, BASE_PATH } from 'constants/constants';
 const PLUGIN_ID = 'bbb8cbf5-6ee1-4784-8f15-e803970bc361'; 
 
 // A URL de Callback que calculamos anteriormente
-const CALLBACK_URL = 'https://admin.zydon.com.br/store/apps/ops-dataview/zydon/callback'; 
+const CALLBACK_URL = 'http://localhost:5173/store/apps/ops-dataview-frontend/zydon/callback'; 
 
 const useAuth = () => {
   const authData = useAuthentication(MODE);
